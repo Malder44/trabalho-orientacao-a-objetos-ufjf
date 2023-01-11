@@ -59,10 +59,8 @@ private Menu menu;
 
     public void update() {
 
-        //to-do:  inserçao do modo de administrador
         switch (Gamestate.state) {
             case MENU:
-                //menu.update();
                 menu.update();
                 break;
             case PLAYING:
